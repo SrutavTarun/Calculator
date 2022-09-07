@@ -24,7 +24,7 @@ body{
     width: 50%;
     float: left;
     /*background-color: black;*/
-    padding: 12em 0em 12em 0em;
+    padding: 6em 0em 4em 0em;
     margin: -1em 0em 0em 0em;
 }
 
@@ -33,38 +33,35 @@ body{
     border-style: solid;
     border-width: 0.1em;
     border-color: black;
+    padding: 1em 0em;
 }
 
 .row{
     color: white;
-    font-size: 1 em;
+    font-size: 1em;
 }
 
 .ele{
-    width: 25%;
-    float: left;
     text-align: center;
     border-style: solid;
     border-width: 0.1em;
     border-color: black;
+    padding: 1em 0em;
+}
+
+.ele-i{
+    width: 25%;
+    float: left;
 }
 
 .ele-4-1{
     width: 75%;
     float: left;
-    text-align: center;
-    border-style: solid;
-    border-width: 0.1em;
-    border-color: black;
 }
 
 .ele-4-2{
     width: 25%;
     float: left;
-    text-align: center;
-    border-style: solid;
-    border-width: 0.1em;
-    border-color: black;
 }
 
 
