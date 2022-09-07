@@ -2,11 +2,69 @@ body{
     background-color: #1d283a;
 }
 
-.flex-container{
-    display: flex;
-    flex-flow: row wrap;
+*{
+    box-sizing: border-box;
+}
+
+.empty-space-left{
+    width: 25%;
+    height: 100%;
+    float: left;
+    /*background-color: white;*/
+}
+
+.empty-space-right{
+    width: 25%;
+    height: 100%;
+    float: left;
+    /*background-color: white;*/
+}
+
+.calc{
+    width: 50%;
+    float: left;
+    /*background-color: black;*/
+    padding: 12em 0em 12em 0em;
+    margin: -1em 0em 0em 0em;
+}
+
+.answer{
+    color: white;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
 }
 
 .row{
     color: white;
+    font-size: 1 em;
 }
+
+.ele{
+    width: 25%;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
+}
+
+.ele-4-1{
+    width: 75%;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
+}
+
+.ele-4-2{
+    width: 25%;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
+}
+
+
