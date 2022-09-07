@@ -29,7 +29,7 @@ body{
 }
 
 .answer{
-    color: white;
+    color: #e2ebf1;
     border-style: solid;
     border-width: 0.1em;
     border-color: black;
@@ -37,31 +37,46 @@ body{
 }
 
 .row{
-    color: white;
+    color: #e2ebf1;
     font-size: 1em;
+}
+
+.col{
+    margin: calc(100%/27) calc(100%/27) 0em 0em;
+}
+
+.col-4{
+    margin: calc(100%/27) 0em 0em 0em;
 }
 
 .ele{
     text-align: center;
-    border-style: solid;
+    /*border-style: solid;
     border-width: 0.1em;
-    border-color: black;
+    border-color: black;*/
     padding: 1em 0em;
 }
 
 .ele-i{
-    width: 25%;
+    width:calc(600%/27);
     float: left;
 }
 
 .ele-4-1{
-    width: 75%;
+    width: calc(2000%/27);
     float: left;
+    margin: calc(100%/27) calc(100%/27) 0em 0em;
 }
 
 .ele-4-2{
-    width: 25%;
+    width: calc(600%/27);
     float: left;
+    margin: calc(100%/27) 0em 0em 0em;
 }
 
-
+.button{
+    font-size: 1.5em;
+    color: #e2ebf1;
+    background-color: #344356;
+    border-style: none;
+}
