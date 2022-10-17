@@ -30,7 +30,7 @@ body{
 
 .answer{
     color: #e2ebf1;
-    border-style: dotted;
+    border-style: solid;
     border-width: 0.1em;
     border-color: black;
     padding: 1em 0em;
