@@ -63,7 +63,7 @@ body{
 }
 
 .ele-4-1{
-    width: calc(2000%/27);
+    width: calc(1300%/27);
     float: left;
     margin: calc(100%/27) calc(100%/27) 0em 0em;
 }
@@ -75,6 +75,7 @@ body{
 }
 
 .button{
+    width: fit-content;
     font-size: 1.5em;
     color: #e2ebf1;
     background-color: #344356;
