@@ -6,26 +6,31 @@ body{
     box-sizing: border-box;
 }
 
+/*.container{
+    display: grid;
+}*/
+
 .empty-space-left{
-    width: 25%;
+    width: 35%;
     height: 100%;
     float: left;
     /*background-color: white;*/
 }
 
 .empty-space-right{
-    width: 25%;
+    width: 35%;
     height: 100%;
     float: left;
     /*background-color: white;*/
 }
 
 .calc{
-    width: 50%;
+    width: 30%;
     float: left;
     /*background-color: black;*/
     padding: 6em 0em 4em 0em;
     margin: -1em 0em 0em 0em;
+    /*position: ;*/
 }
 
 .answer{
@@ -38,7 +43,8 @@ body{
 
 .row{
     color: #e2ebf1;
-    font-size: 1em;
+    font-size: 2em;
+    height: 1em;
 }
 
 .col{
@@ -54,11 +60,11 @@ body{
     /*border-style: solid;
     border-width: 0.1em;
     border-color: black;*/
-    padding: 1em 0em;
+    padding: 0em 0em;
 }
 
 .ele-i{
-    width:calc(600%/27);
+    width: calc(600%/27);
     float: left;
 }
 
@@ -75,8 +81,9 @@ body{
 }
 
 .button{
-    width: fit-content;
-    font-size: 1.5em;
+    /*height: 100%;*/
+    width: 100%;
+    font-size: 1em;
     color: #e2ebf1;
     background-color: #344356;
     border-style: none;
