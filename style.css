@@ -6,85 +6,88 @@ body{
     box-sizing: border-box;
 }
 
-/*.container{
-    display: grid;
-}*/
+.container{
+    display: flex;
+    flex-direction: row;
+}
 
 .empty-space-left{
-    width: 35%;
+    /* width: 35%;
     height: 100%;
     float: left;
-    /*background-color: white;*/
+    background-color: white; */
 }
 
 .empty-space-right{
-    width: 35%;
+    /* width: 35%;
     height: 100%;
     float: left;
-    /*background-color: white;*/
+    background-color: white; */
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    /* width: 30%; */
+    /* float: left; */
+    /*background-color: black;*/
+    /* padding: 6em 0em 4em 0em;
+    margin: -1em 0em 0em 0em; */
+    /*position: ; */
 }
 
 .calc{
-    width: 30%;
-    float: left;
-    /*background-color: black;*/
-    padding: 6em 0em 4em 0em;
-    margin: -1em 0em 0em 0em;
-    /*position: ;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .answer{
-    color: #e2ebf1;
+    /* color: #e2ebf1;
+    padding: 1em 0em; */
     border-style: solid;
     border-width: 0.1em;
     border-color: black;
-    padding: 1em 0em;
 }
 
 .row{
-    color: #e2ebf1;
-    font-size: 2em;
-    height: 1em;
+    display: flex;
+    flex-direction: row;
+    /* height: 1em; */
 }
 
 .col{
-    margin: calc(100%/27) calc(100%/27) 0em 0em;
+    /* margin: calc(100%/27) calc(100%/27) 0em 0em; */
 }
 
 .col-4{
-    margin: calc(100%/27) 0em 0em 0em;
+    /* margin: calc(100%/27) 0em 0em 0em; */
 }
 
 .ele{
     text-align: center;
-    /*border-style: solid;
-    border-width: 0.1em;
-    border-color: black;*/
-    padding: 0em 0em;
+    color: #e2ebf1;
+    font-size: 1.5em;
+    padding: 1em 1em;
+    border-style: solid;
+    border-width: 0.001em;
+    border-color: black;
+    margin: 0.2em;
 }
 
 .ele-i{
-    width: calc(600%/27);
-    float: left;
+    /* width: calc(600%/27);
+    float: left; */
 }
 
 .ele-4-1{
-    width: calc(1300%/27);
+    /* width: calc(1300%/27);
     float: left;
-    margin: calc(100%/27) calc(100%/27) 0em 0em;
+    margin: calc(100%/27) calc(100%/27) 0em 0em; */
 }
 
 .ele-4-2{
-    width: calc(600%/27);
+    /* width: calc(600%/27);
     float: left;
-    margin: calc(100%/27) 0em 0em 0em;
-}
-
-.button{
-    /*height: 100%;*/
-    width: 100%;
-    font-size: 1em;
-    color: #e2ebf1;
-    background-color: #344356;
-    border-style: none;
+    margin: calc(100%/27) 0em 0em 0em; */
 }
