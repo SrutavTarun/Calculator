@@ -55,17 +55,13 @@ body{
     margin: 0.2em;
 }
 
-.zero{
-    flex: 2.29;
-}
-
-.dot{
-    flex: 0.855;
+/* .zero{
+    flex: 1;
 }
 
 .equal{
-    flex: 0.855;
-}
+    flex: 1;
+} */
 
 /* border-style: solid;
 border-width: 0.001em;
