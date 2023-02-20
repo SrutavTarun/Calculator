@@ -1,6 +1,6 @@
 let arr = []
-let st=""
 let res
+let opnd
 
 const ans = document.querySelector("#ans")
 const AC = document.querySelector("#AC")
@@ -27,95 +27,84 @@ const equal = document.querySelector("#equal")
 AC.onmousedown = function(){
     ans.innerText = 'ㅤ'
     arr=[]
-    st=''
 }
 
 div.onmousedown = function(){
     arr.push('/')
-    st+='/'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 seven.onmousedown = function(){
     arr.push(7)
-    st+='7'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 eight.onmousedown = function(){
     arr.push(8)
-    st+='8'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 nine.onmousedown = function(){
     arr.push(9)
-    st+='9'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 mult.onmousedown = function(){
     arr.push('*')
-    st+='*'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 four.onmousedown = function(){
     arr.push(4)
-    st+='4'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 five.onmousedown = function(){
     arr.push(5)
-    st+='5'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 six.onmousedown = function(){
     arr.push(6)
-    st+='6'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 minus.onmousedown = function(){
     arr.push('-')
-    st+='-'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 one.onmousedown = function(){
     arr.push(1)
-    st+='1'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 two.onmousedown = function(){
     arr.push(2)
-    st+='2'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 three.onmousedown = function(){
     arr.push(3)
-    st+='3'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 plus.onmousedown = function(){
     arr.push('+')
-    st+='+'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 zero.onmousedown = function(){
     arr.push(0)
-    st+='0'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 lbr.onmousedown = function(){
     arr.push('(')
-    st+='('
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 rbr.onmousedown = function(){
     arr.push(')')
-    st+=')'
-    ans.innerText = st
+    ans.innerText = arr.join('')
 }
 
 equal.onmousedown = function(){
     res = postfixEval(InfixtoPostfix(arr))
     ans.innerText = res
     arr = [res]
-    st=res
+}
+
+cs.onmousedown = function(){
+    opnd = arr.pop()
+    opnd = -opnd
+    arr.push(opnd)
+    ans.innerText = arr.join('')
 }
 
 // -----------------------------------------------------------------------------------------------------------------
@@ -277,4 +266,3 @@ function postfixEval( postfixArray ) {
     return returnValue;
 }
 
-// postfixEval(['7.7','7','+']);
